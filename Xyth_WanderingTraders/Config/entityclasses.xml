@@ -22,9 +22,9 @@
 			<property name="HandItem" value="handTraderRifle"/> 
 			<property name="RightHandJointName" value="Muzzle" />
 			<property name="SwimOffset" value="-2"/>
-			<property name="MoveSpeed" value="0.35"/> 
-			<property name="MoveSpeedAggro" value=".35, 1.1"/> 
-			<property name="MoveSpeedPanic" value="1.1"/>
+			<property name="MoveSpeed" value="0.35"/> <!-- .35 for moddersupdate=true  -->
+			<property name="MoveSpeedAggro" value=".35, .35"/> <!-- .35, 1.1 for moddersupdate=true  -->
+			<property name="MoveSpeedPanic" value=".5"/>
 			<property name="PainResistPerHit" value=".70"/>
 			<property name="MaxViewAngle" value="180"/>
 			<property name="MaxTurnSpeed" value="360"/>
@@ -123,8 +123,8 @@
 			<property name="HandItem" value="handTraderShotgun"/> 
 			<property name="RightHandJointName" value="Muzzle" />
 			<property name="SwimOffset" value="-2"/>
-			<property name="MoveSpeed" value="0.35"/> 
-			<property name="MoveSpeedAggro" value=".35, 1.1"/> 
+			<property name="MoveSpeed" value="0.35"/> <!-- .35 for moddersupdate=true  -->
+			<property name="MoveSpeedAggro" value=".35, .35"/> <!-- .35, 1.1 for moddersupdate=true  -->
 			<property name="MoveSpeedPanic" value="1.1"/>
 			<property name="PainResistPerHit" value=".70"/>
 			<property name="MaxViewAngle" value="180"/>
@@ -224,8 +224,8 @@
 			<property name="HandItem" value="handTraderPistol"/> 
 			<property name="RightHandJointName" value="Muzzle" />
 			<property name="SwimOffset" value="-2"/>
-			<property name="MoveSpeed" value="0.35"/> 
-			<property name="MoveSpeedAggro" value=".35, .35"/> 
+			<property name="MoveSpeed" value="0.35"/> <!-- .35 for moddersupdate=true  -->
+			<property name="MoveSpeedAggro" value=".35, .35"/> <!-- .35, .35 for moddersupdate=true  -->
 			<property name="MoveSpeedPanic" value=".6"/>
 			<property name="PainResistPerHit" value=".95"/>
 			<property name="MaxViewAngle" value="180"/>
