@@ -10,5 +10,10 @@
 	<dependencies>
 		<dependency>AnimationSDX</dependency>
 		<dependency>SDX_EntityAliveSDX</dependency>
+		<dependency>aXUi_Dialog</dependency>
+		<dependency>Bloom's Animal Husbandry</dependency>
+		<dependency>SDX_SpawnFromEntityGroup</dependency>
+		<dependency>SDX_ItemActions</dependency>	
+		
 	</dependencies>
 </mod>

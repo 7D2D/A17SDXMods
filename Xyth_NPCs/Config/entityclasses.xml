@@ -111,8 +111,8 @@
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
 			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
-			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
-			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />  <!-- Which buff is on the entity when its produced something -->
+<!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
+			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="pressureplate"/>
 		</entity_class> 		
@@ -227,8 +227,8 @@
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
 			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
-			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
-			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />  <!-- Which buff is on the entity when its produced something -->
+<!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
+			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="pressureplate"/>
 		</entity_class> 			
@@ -343,8 +343,8 @@
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
 			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
-			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
-			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />  <!-- Which buff is on the entity when its produced something -->
+<!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
+			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="pressureplate"/>
 		</entity_class> 			  
@@ -466,8 +466,8 @@
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
 			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
-			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
-			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />  <!-- Which buff is on the entity when its produced something -->
+<!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
+			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="pressureplate"/>
 		</entity_class> 
@@ -586,8 +586,8 @@
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
 			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
-			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
-			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />  <!-- Which buff is on the entity when its produced something -->
+<!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
+			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="pressureplate"/>
 		</entity_class> 	
