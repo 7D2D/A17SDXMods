@@ -3,12 +3,13 @@
 		<author>Xyth</author>
 		<name>Xyth Bandits</name>
 		<description>Bandits by Xyth</description>
-		<mod_version>1.0</mod_version>
+		<mod_version>1.1</mod_version>
 		<game_version>17.0</game_version>
 		<launcher_version>0.7.3</launcher_version>
 	</info>
 	<dependencies>
 		<dependency>Hal's DLL Fixes</dependency>
 		<dependency>AnimationSDX</dependency>
+		<dependency>Patch_Entity</dependency>
 	</dependencies>
 </mod>

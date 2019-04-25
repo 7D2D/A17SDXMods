@@ -2,7 +2,7 @@
 	<append xpath="/entity_classes">
 		<entity_class name="AshBandit">
 			<property name="UseModderUpdate" value="true" />
-			<property name="Class" value="EntityBandit"/>
+			<property name="Class" value="EntityBanditsSDX,Mods"/>
 			<property name="Mesh" value="#@modfolder:Resources/Bandits.unity3d?AshBandit_X" />			
 			<property name="Faction" value="bandits"/>
 			<property name="Tags" value="entity,bandits"/>
@@ -21,7 +21,7 @@
 			<property name="RightHandJointName" value="Muzzle" />
 			<property name="SwimOffset" value="-2"/>
 			<property name="MoveSpeed" value="0.25"/> 
-			<property name="MoveSpeedAggro" value=".8, 1.1"/> 
+			<property name="MoveSpeedAggro" value=".8, .8"/> 
 			<property name="MoveSpeedPanic" value="1.1"/>
 			<property name="AttackTimeoutDay" value="1.0"/> 
 			<property name="AttackTimeoutNight" value="1.0"/>
@@ -110,7 +110,6 @@
 			<property name="HeadExplosionDamageMultiplier" value="1"/>
 			<property name="ChestExplosionDamageMultiplier" value="1"/>
 			<property name="HasDeathAnim" value="true"/>
-			<property name="ParticleOnDeath" value="blood_death"/>
 			<property name="SurfaceCategory" value="organic"/> 
 			<property name="WalkType" value="7"/>
 			<property name="ExperienceGain" value="1550"/> 
@@ -118,7 +117,7 @@
 			<property name="TimeStayAfterDeath" value="5"/>
 			<property name="LootDropProb" value=".5"/> 
 			<property name="LootDropEntityClass" value="EntityLootContainerBandit"/>
-			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>				
+			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>	
 		</entity_class> 
 		<entity_class name="BanditEve" extends="AshBandit" >
 			<property name="UseModderUpdate" value="true" />
@@ -126,7 +125,7 @@
 			<property name="Faction" value="bandits"/>
 			<property name="Tags" value="entity,bandit"/>
 			<property name="IsEnemyEntity" value="true"/>			
-			<property name="Class" value="EntityBandit"/>
+			<property name="Class" value="EntityBanditsSDX,Mods"/>
 			<property name="HandItem" value="handBanditMP7"/> 
 			<property name="MoveSpeed" value="0.25"/> 
 			<property name="MoveSpeedAggro" value=".8, .8"/> 
@@ -176,13 +175,11 @@
 			<property name="SoundRandom" value=""/>
 			<property name="SoundAlert" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="SoundHurt" value=""/>
-			<property name="SoundDeath" value=""/>
 			<property name="SoundAttack" value=""/>			
 		</entity_class> 
 		<entity_class name="BanditArcher" extends="AshBandit" >
 			<property name="UseModderUpdate" value="true" />
-			<property name="Class" value="EntityBandit"/>
+			<property name="Class" value="EntityBanditsSDX,Mods"/>
 			<property name="Mesh" value="#@modfolder:Resources/Bandits.unity3d?BanditArcher_X" />
 			<property name="Faction" value="bandits"/>
 			<property name="Tags" value="entity,bandit"/>
@@ -236,17 +233,14 @@
 			<property name="SoundRandom" value=""/>
 			<property name="SoundAlert" value=""/>
 			<property name="SoundSense" value=""/>
-			<property name="SoundHurt" value=""/>
-			<property name="SoundDeath" value=""/>
 			<property name="SoundAttack" value=""/>						
 			<property name="TimeStayAfterDeath" value="5"/>
 			<property name="LootDropProb" value="1.0"/> 
 			<property name="LootDropEntityClass" value="EntityLootContainerBandit"/>
-			<property name="ParticleOnDeath" value="blood_death"/>
 		</entity_class> 		
 		<entity_class name="BanditBoss" extends="AshBandit" >
 			<property name="UseModderUpdate" value="true" />
-			<property name="Class" value="EntityBandit"/>
+			<property name="Class" value="EntityBanditsSDX,Mods"/>
 			<property name="Mesh" value="#@modfolder:Resources/Bandits.unity3d?BanditBoss_X" />	
 			<property name="Faction" value="bandits"/>
 			<property name="Tags" value="entity,bandit"/>
@@ -289,7 +283,6 @@
 			<property name="TimeStayAfterDeath" value="5"/>
 			<property name="LootDropProb" value="1.0"/> 
 			<property name="LootDropEntityClass" value="EntityLootContainerBanditBoss"/>
-			<property name="ParticleOnDeath" value="blood_death"/>
 		</entity_class> 
 		<entity_class name="EntityLootContainerBanditBoss"> 
 			<property name="Mesh" value="LootContainers/zpackPrefab"/>

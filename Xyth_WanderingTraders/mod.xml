@@ -3,7 +3,7 @@
 		<author>Xyth/SphereII/Mumpfy</author>
 		<name>Xyth Wandering Traders</name>
 		<description>Wandering Traders Mod</description>
-		<mod_version>1.3</mod_version>
+		<mod_version>1.32</mod_version>
 		<game_version>17.0</game_version>
 		<launcher_version>0.7.3</launcher_version>
 	</info>
@@ -11,5 +11,6 @@
 		<dependency>Hal's DLL Fixes</dependency>
 		<dependency>AnimationSDX</dependency>
 		<dependency>SphereII Wandering Traders</dependency>
+		<dependency>Patch_Entity</dependency>
 	</dependencies>
 </mod>
