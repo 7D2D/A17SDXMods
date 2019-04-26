@@ -1,7 +1,7 @@
 <configs>
  	<append xpath="/items">
 		<item name="handAshShotgun">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>
@@ -36,7 +36,7 @@
 			</effect_group>
 		</item>			
 		<item name="handBanditBow">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="10"/>
@@ -74,7 +74,7 @@
 			</effect_group>
 		</item>		
 		<item name="handBanditRifle">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>
@@ -107,7 +107,7 @@
 			</effect_group>
 		</item>
 		<item name="handBanditMP7">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="30"/>

@@ -134,7 +134,7 @@
 			<property name="AttackTimeoutNight" value="1.0"/>
 			<property name="AITask-1" value="Swim"/>
 			<property name="AITask-2" value="RangedAttackTarget" param1="1,1,4"/>
-			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/> 
 			<property name="AITask-4" value="ApproachSpot"/>  
 			<property name="AITask-5" value="Look"/> 
 			<property name="AITask-6" value="Wander"/>
@@ -192,7 +192,7 @@
 			<property name="AttackTimeoutNight" value="1.0"/>
 			<property name="AITask-1" value="Swim"/>
 			<property name="AITask-2" value="RangedAttackTarget" param1="1,1,4"/>
-			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/> 
 			<property name="AITask-4" value="ApproachSpot"/>  
 			<property name="AITask-5" value="Look"/> 
 			<property name="AITask-6" value="Wander"/>
@@ -253,7 +253,7 @@
 			<property name="AttackTimeoutNight" value="1.0"/>
 			<property name="AITask-1" value="Swim"/>
 			<property name="AITask-2" value="RangedAttackTarget" param1="1,1,4"/>
-			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombie,0,EntityEnemyAnimal,0,EntityPlayer,0"/> 
 			<property name="AITask-4" value="ApproachSpot"/>  
 			<property name="AITask-5" value="Look"/> 
 			<property name="AITask-6" value="Wander"/>

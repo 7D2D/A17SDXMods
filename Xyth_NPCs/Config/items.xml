@@ -37,7 +37,7 @@
 			</property>
 		</item>	
 		<item name="handAmmoRifle">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>

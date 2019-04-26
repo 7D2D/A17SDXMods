@@ -1,7 +1,7 @@
 <configs>
  	<append xpath="/items">
 		<item name="handTraderKnife">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="40"/>
@@ -15,7 +15,7 @@
 			</property>
 		</item>	
 		<item name="handTraderRifle">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>
@@ -51,7 +51,7 @@
 			</effect_group>
 		</item>
 		<item name="handTraderShotgun">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>
@@ -88,7 +88,7 @@
 			</effect_group>
 		</item>		
 		<item name="handTraderPistol">
-			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="Extends" value="meleeHandMaster"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action0">
 				<property name="DamageEntity" value="50"/>
