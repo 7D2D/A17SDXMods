@@ -71,6 +71,8 @@
 				<passive_effect name="HealthChangeOT" operation="base_set" value="1.2"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" /> 
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="65"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="65"/>
 			</effect_group>
 			<property name="DismemberMultiplierHead" value="1"/>
 			<property name="DismemberMultiplierArms" value="1"/>
@@ -97,7 +99,7 @@
 			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="CompassIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="Names" value="Bob,Mickey D" />		
-			<property name="Buffs" value="buffAnimalStatusCheck;buffStatusCheck;buffSanitationStatusCheck" />
+			<property name="Buffs" value="buffNPCStatusCheck;buffStatusCheck;buffNPCSanitationStatusCheck" />
 			  <!-- Food items and bins that this entity will eat, if using the right AI Task -->
 			<property name="FoodItems" value="foodCornBread,foodCornOnTheCob"/>
 			<property name="FoodBins" value="cntSecureStorageChest,cntStorageChest" />
@@ -107,14 +109,14 @@
 			<property name="ThirstyBuffs" value="buffStatusThirsty1,buffStatusThirsty2" />
 			<property name="HungryBuffs" value="buffStatusHungry1,buffStatusHungry2" />
 			  <!-- Sanitation Buff: Aka, make 'em poop part. Add in  buffSanitationStatusCheck in the Buffs entry here to enable. -->
-			<property name="SanitationBuffs" value="buffStatusSanitation1,buffStatusSanitation2" />
+			<property name="SanitationBuffs" value="buffStatusNPCSanitation1,buffStatusNPCSanitation2" />
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
-			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
+			<property name="SanitationBlock" value="NPCPoop" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
 <!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
 			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
-			<property name="HomeBlocks" value="pressureplate"/>
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 		
 		<entity_class name="NPCNurse" >
 			<property name='Class' value='EntityAliveSDX, Mods' />
@@ -186,6 +188,8 @@
 				<passive_effect name="HealthChangeOT" operation="base_set" value="1.2"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" /> 
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="65"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="65"/>				
 			</effect_group>
 			<property name="DismemberMultiplierHead" value="1"/>
 			<property name="DismemberMultiplierArms" value="1"/>
@@ -212,7 +216,7 @@
 			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="CompassIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="Names" value="Meg,Debbie,Gayle,Ratchet" />		
-			<property name="Buffs" value="buffAnimalStatusCheck;buffStatusCheck;buffSanitationStatusCheck" />
+			<property name="Buffs" value="buffNPCStatusCheck;buffStatusCheck;buffNPCSanitationStatusCheck" />
 			  <!-- Food items and bins that this entity will eat, if using the right AI Task -->
 			<property name="FoodItems" value="foodCornBread,foodCornOnTheCob"/>
 			<property name="FoodBins" value="cntSecureStorageChest,cntStorageChest" />
@@ -222,14 +226,14 @@
 			<property name="ThirstyBuffs" value="buffStatusThirsty1,buffStatusThirsty2" />
 			<property name="HungryBuffs" value="buffStatusHungry1,buffStatusHungry2" />
 			  <!-- Sanitation Buff: Aka, make 'em poop part. Add in  buffSanitationStatusCheck in the Buffs entry here to enable. -->
-			<property name="SanitationBuffs" value="buffStatusSanitation1,buffStatusSanitation2" />
+			<property name="SanitationBuffs" value="buffStatusNPCSanitation1,buffStatusNPCSanitation2" />
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
-			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
+			<property name="SanitationBlock" value="NPCPoop" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
 <!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
 			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
-			<property name="HomeBlocks" value="pressureplate"/>
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 			
 
 		<entity_class name="NPCFarmer" >
@@ -302,6 +306,8 @@
 				<passive_effect name="HealthChangeOT" operation="base_set" value="1.2"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" /> 
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="65"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="65"/>				
 			</effect_group>
 			<property name="DismemberMultiplierHead" value="1"/>
 			<property name="DismemberMultiplierArms" value="1"/>
@@ -327,7 +333,7 @@
 			<property name="LootDropEntityClass" value="EntityLootContainerNPC"/>	
 			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="Names" value="Franky" />		
-			<property name="Buffs" value="buffAnimalStatusCheck;buffStatusCheck;buffSanitationStatusCheck" />
+			<property name="Buffs" value="buffNPCStatusCheck;buffStatusCheck;buffNPCSanitationStatusCheck" />
 			  <!-- Food items and bins that this entity will eat, if using the right AI Task -->
 			<property name="FoodItems" value="foodCornBread,foodCornOnTheCob"/>
 			<property name="FoodBins" value="cntSecureStorageChest,cntStorageChest" />
@@ -337,14 +343,14 @@
 			<property name="ThirstyBuffs" value="buffStatusThirsty1,buffStatusThirsty2" />
 			<property name="HungryBuffs" value="buffStatusHungry1,buffStatusHungry2" />
 			  <!-- Sanitation Buff: Aka, make 'em poop part. Add in  buffSanitationStatusCheck in the Buffs entry here to enable. -->
-			<property name="SanitationBuffs" value="buffStatusSanitation1,buffStatusSanitation2" />
+			<property name="SanitationBuffs" value="buffStatusNPCSanitation1,buffStatusNPCSanitation2" />
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
-			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
+			<property name="SanitationBlock" value="NPCPoop" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
 <!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
 			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
-			<property name="HomeBlocks" value="pressureplate"/>
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 			  
 		<entity_class name="NPCHarleyQuinn" >
 			<property name='Class' value='EntityAliveSDX, Mods' />
@@ -424,6 +430,8 @@
 				<passive_effect name="HealthChangeOT" operation="base_set" value="1.2"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" /> 
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="65"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="65"/>				
 			</effect_group>
 			<property name="DismemberMultiplierHead" value="1"/>
 			<property name="DismemberMultiplierArms" value="1"/>
@@ -449,7 +457,7 @@
 			<property name="LootDropEntityClass" value="EntityLootContainerNPC"/>	
 			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
 			<property name="Names" value="Harley" />		
-			  <property name="Buffs" value="buffAnimalStatusCheck;buffStatusCheck;buffSanitationStatusCheck" />
+			<property name="Buffs" value="buffNPCStatusCheck;buffStatusCheck;buffNPCSanitationStatusCheck" />
 			  <!-- Food items and bins that this entity will eat, if using the right AI Task -->
 			<property name="FoodItems" value="foodCornBread,foodCornOnTheCob"/>
 			<property name="FoodBins" value="cntSecureStorageChest,cntStorageChest" />
@@ -459,14 +467,14 @@
 			<property name="ThirstyBuffs" value="buffStatusThirsty1,buffStatusThirsty2" />
 			<property name="HungryBuffs" value="buffStatusHungry1,buffStatusHungry2" />
 			  <!-- Sanitation Buff: Aka, make 'em poop part. Add in  buffSanitationStatusCheck in the Buffs entry here to enable. -->
-			<property name="SanitationBuffs" value="buffStatusSanitation1,buffStatusSanitation2" />
+			<property name="SanitationBuffs" value="buffStatusNPCSanitation1,buffStatusNPCSanitation2" />
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
-			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
+			<property name="SanitationBlock" value="NPCPoop" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
 <!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
 			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
-			<property name="HomeBlocks" value="pressureplate"/>
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 
 			<!-- Ranged Types  -->
 		<entity_class name="NPCAmmo" >
@@ -540,8 +548,11 @@
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 				<passive_effect name="StaminaMax" operation="base_set" value="500"/>
 				<passive_effect name="HealthChangeOT" operation="base_set" value="1.2"/>
+				<passive_effect name="HealthLoss" operation="perc_subtract" value="0.1"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" /> 
 				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="65"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" value="65"/>				
 			</effect_group>
 			<property name="DismemberMultiplierHead" value="1"/>
 			<property name="DismemberMultiplierArms" value="1"/>
@@ -568,7 +579,7 @@
 			<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
 
 			<property name="Names" value="Bill,Mickey D" />		
-			<property name="Buffs" value="buffAnimalStatusCheck;buffStatusCheck;buffSanitationStatusCheck" />
+			<property name="Buffs" value="buffNPCStatusCheck;buffStatusCheck;buffNPCSanitationStatusCheck" />
 			  <!-- Food items and bins that this entity will eat, if using the right AI Task -->
 			<property name="FoodItems" value="foodCornBread,foodCornOnTheCob"/>
 			<property name="FoodBins" value="cntSecureStorageChest,cntStorageChest" />
@@ -578,14 +589,14 @@
 			<property name="ThirstyBuffs" value="buffStatusThirsty1,buffStatusThirsty2" />
 			<property name="HungryBuffs" value="buffStatusHungry1,buffStatusHungry2" />
 			  <!-- Sanitation Buff: Aka, make 'em poop part. Add in  buffSanitationStatusCheck in the Buffs entry here to enable. -->
-			<property name="SanitationBuffs" value="buffStatusSanitation1,buffStatusSanitation2" />
+			<property name="SanitationBuffs" value="buffStatusNPCSanitation1,buffStatusNPCSanitation2" />
 			<property name="ToiletBlocks" value="cntToilet01,cntToilet02,cntToilet03" />
-			<property name="SanitationBlock" value="terrDirt" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
+			<property name="SanitationBlock" value="NPCPoop" /> <!-- Poop block. If ToiletBlocks is configured, it'll use those rather than generate this block. -->
 			<property name="Beds" value="mattressFlat" />
 <!--			<property name="BedTimeBuffs" value="buffAnimalChickenEgg" />
 			<property name="ProductionFinishedBuff" value="buffAnimalChickenEgg" />   Which buff is on the entity when its produced something -->
 			  <!-- This is the block it'll call home -->
-			<property name="HomeBlocks" value="pressureplate"/>
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 	
 		
 		<!-- Loot drop containers  -->

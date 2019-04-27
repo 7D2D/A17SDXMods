@@ -1,9 +1,9 @@
 <mod>
 	<info>
-		<author>Xyth</author>
+		<author>Xyth/Sphereii</author>
 		<name>Xyth NPCs</name>
 		<description>Xyth NPC Mod</description>
-		<mod_version>1.12</mod_version>
+		<mod_version>1.2</mod_version>
 		<game_version>17.0</game_version>
 		<launcher_version>0.7.3</launcher_version>
 	</info>
@@ -11,9 +11,6 @@
 		<dependency>AnimationSDX</dependency>
 		<dependency>SDX_EntityAliveSDX</dependency>
 		<dependency>aXUi_Dialog</dependency>
-		<dependency>Bloom's Animal Husbandry</dependency>
-		<dependency>SDX_SpawnFromEntityGroup</dependency>
-		<dependency>SDX_ItemActions</dependency>	
 		<dependency>Patch_Entity</dependency>		
 	</dependencies>
 </mod>
