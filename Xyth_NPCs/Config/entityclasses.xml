@@ -598,7 +598,6 @@
 			  <!-- This is the block it'll call home -->
 			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
 		</entity_class> 	
-		
 		<!-- Loot drop containers  -->
 		<entity_class name="EntityLootContainerNPC"> <!-- 71.72 -->
 			<property name="Mesh" value="LootContainers/zpackPrefab"/>
